@@ -1,11 +1,34 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# یابنده هوشمند موقعیت (Smart Location Finder)
 
-  <h1>Built with AI Studio</h2>
+این پروژه یک وب‌اپلیکیشن پیشرفته و واکنش‌گرا (Responsive) است که با استفاده از **React**، **Tailwind CSS** و **Gemini API** طراحی شده است. 
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## ویژگی‌ها:
+- دریافت دقیق مختصات جغرافیایی (Latitude/Longitude).
+- تبدیل مختصات به آدرس پستی فارسی با استفاده از هوش مصنوعی (Reverse Geocoding).
+- نمایش محله، شهر، خیابان و کد پستی.
+- قابلیت کپی کردن آدرس و اشتراک‌گذاری مستقیم.
+- لینک مستقیم به نقشه گوگل.
+- رابط کاربری کاملاً راست‌چین (RTL) و بهینه برای موبایل.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## نحوه استفاده در Termux یا سرور شخصی:
+1. ابتدا پکیج‌های لازم را نصب کنید:
+   ```bash
+   pkg install nodejs git
+   ```
+2. پروژه را کلون کنید:
+   ```bash
+   git clone [URL_REPO]
+   cd [REPO_NAME]
+   ```
+3. وابستگی‌ها را نصب و اپ را اجرا کنید:
+   ```bash
+   npm install
+   npm start
+   ```
+4. آدرس لوکال (معمولاً `http://localhost:3000`) را در مرورگر باز کنید.
 
-</div>
+*نکته: برای دریافت موقعیت مکانی، حتماً باید از پروتکل HTTPS استفاده کنید یا در محیط Localhost باشید.*
+
+## توسعه‌دهنده:
+آماده‌سازی شده برای انتشار در گیت‌هاب به عنوان ابزار کاربردی مکان‌یابی.
